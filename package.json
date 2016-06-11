@@ -2,9 +2,10 @@
   "name": "electron-playlist",
   "version": "0.0.1",
   "description": "Playlist application built using electron.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ajcumine/electron-playlist/issues"
   },
-  "homepage": "https://github.com/ajcumine/electron-playlist#readme"
+  "homepage": "https://github.com/ajcumine/electron-playlist#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
 }
