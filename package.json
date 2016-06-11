@@ -1,0 +1,22 @@
+{
+  "name": "electron-playlist",
+  "version": "0.0.1",
+  "description": "Playlist application built using electron.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajcumine/electron-playlist.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "@ajcumine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajcumine/electron-playlist/issues"
+  },
+  "homepage": "https://github.com/ajcumine/electron-playlist#readme"
+}
