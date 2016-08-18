@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/ajcumine/electron-playlist#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron": "^1.3.3"
   }
 }
