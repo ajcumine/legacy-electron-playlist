@@ -5,12 +5,12 @@
   "main": "main.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "start": "./node_modules/.bin/electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajcumine/electron-playlist.git"
+    "url": "https://github.com/ajcumine/electron-playlist.git"
   },
   "keywords": [
     "Electron"
