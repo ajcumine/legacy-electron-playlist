@@ -4,12 +4,17 @@
 
 Application built using Electron.
 
+## Development
 
-`$ npm install`
-`$ npm start`
+Webpack is used to transpile ES6 to ES5. There is hot module reloading on the development environment for the application code inside `/app`.
 
-###Linting
+`$ npm install` to install required dependencies.
+
+`$ npm start` will run the electron application in development mode. This requires the application bundle to be build and stored at `localhost:3000/dist/bundle.js`.
+
+`$ npm run hot-server` will start a webpack development server on port 3000 with hot module reloading. This will build the required `bundle.js` file.
+
+## Linting
 
 Eslint is using the default [AirBnB JavaScript config](https://github.com/airbnb/javascript) to lint all JavaScript files.
-
 `$ npm run lint`
