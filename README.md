@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/ajcumine/electron-playlist/tree/master.svg?style=svg)](https://circleci.com/gh/ajcumine/electron-playlist/tree/master)
+
 # Electron Playlist
 
 Application built using Electron.
