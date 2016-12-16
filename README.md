@@ -21,6 +21,14 @@ Webpack is used to transpile ES6 to ES5. There is hot module reloading on the de
 Eslint is using the default [AirBnB JavaScript config](https://github.com/airbnb/javascript) to lint all JavaScript files.
 `$ yarn run lint`
 
+In order to ensure `eslint-config-airbnb` dependencies are the correct versions you may need to run the following script:
+```
+(
+  export PKG=eslint-config-airbnb;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn upgrade "$PKG@latest" -D
+)
+```
+
 ## Resources used while building this project
 
 https://github.com/chentsulin/electron-react-boilerplate
