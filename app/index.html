@@ -16,7 +16,7 @@
         const script = document.createElement('script');
         const port = process.env.PORT || 3000;
         script.src = (process.env.ENV === 'development') ? `http://localhost:${port}/dist/bundle.js` : '../dist/bundle.js';
-        document.write(script.outerHTML);
+        document.body.appendChild(script);
       }
     </script>
   </body>
