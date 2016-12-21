@@ -7,13 +7,13 @@ If you would like to contribute to this project this is the guide for you. This 
 If you're not sure where to start or are making your first contribution then issues tagged with `༼ つ ◕_◕ ༽つ` may be a good place to start.
 
 ## Table of Contents
-- [Setup](#Setup)
-- [Making your contribution](#Making your contribution)
-- [Testing](#Testing)
-- [Linting](#Linting)
+- [Setup](#setup)
+- [Making your contribution](#making-your-contribution)
+- [Testing](#testing)
+- [Linting](#linting)
 
 ## Setup
-Follow the guide for setting up the development environment in [Development](/development.md).
+Follow the guide for setting up the development environment in [Development](development.md).
 
 ## Making your contribution
 A step by step guide to making a contribution:

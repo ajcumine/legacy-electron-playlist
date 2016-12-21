@@ -4,7 +4,7 @@ This is a living document, to be built as the application is built, that contain
 
 ## Table of Contents
 
-[Contributing Guide](/contributing-guide.md)
-[Technology](/technology.md)
-[Development](/development.md)
-[Resources](/resources.md)
+- [Contributing Guide](contributing-guide.md)
+- [Technology](technology.md)
+- [Development](development.md)
+- [Resources](resources.md)
