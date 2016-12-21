@@ -4,31 +4,17 @@
 
 Application built using Electron.
 
-## Development
+## Documentation
 
-[Yarn](https://yarnpkg.com/) is our package manager of choice so you will need to install this on your machine.
+Documentation for this application can be found in [docs](/docs) including:
 
-Webpack is used to transpile ES6 to ES5. There is hot module reloading on the development environment for the application code inside `/app`.
+- [Contributing Guide](/docs/contributing-guide.md)
+- [Technology](/docs/technology.md)
+- [Development](/docs/development.md)
+- [Resources](/docs/resources.md)
 
-`$ yarn install` to install required dependencies.
+## Found a bug or want to propose a new feature?
 
-`$ yarn start` will run the electron application in development mode. This requires the application bundle to be build and stored at `localhost:3000/dist/bundle.js`.
+Bugs and feature requests can be posted at https://github.com/ajcumine/electron-playlist/issues.
 
-`$ yarn run hot-server` will start a webpack development server on port 3000 with hot module reloading. This will build the required `bundle.js` file.
-
-## Linting
-
-Eslint is using the default [AirBnB JavaScript config](https://github.com/airbnb/javascript) to lint all JavaScript files.
-`$ yarn run lint`
-
-In order to ensure `eslint-config-airbnb` dependencies are the correct versions you may need to run the following script:
-```
-(
-  export PKG=eslint-config-airbnb;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn upgrade "$PKG@latest" -D
-)
-```
-
-## Resources used while building this project
-
-https://github.com/chentsulin/electron-react-boilerplate
+When you post a bug please try to include as much information as possible to reproduce your bug (OS/steps/etc).
